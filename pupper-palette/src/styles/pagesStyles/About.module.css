@@ -1,0 +1,42 @@
+.about {
+  padding: 2em;
+}
+
+.about__heading {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.about__content {
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+
+.about__contact {
+  font-size: 1.25em;
+}
+
+.about__subheading {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.about__contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about__contact ul li {
+  margin-bottom: 0.5em;
+}
+
+.about__contact a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.about__contact a:hover {
+  text-decoration: underline;
+}

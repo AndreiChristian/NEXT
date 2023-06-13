@@ -1,7 +1,22 @@
 import React from "react";
 
 const ArtIndex = () => {
-  return <div>index</div>;
+  return (
+    <>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+    </>
+  );
 };
 
 export default ArtIndex;

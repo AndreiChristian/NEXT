@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  gap: 5vh;
+  gap: 5dvh;
+  padding-top: 15vh;
+  padding-top: 15dvh;
   min-height: 100vh;
   min-height: 100dvh;
 
