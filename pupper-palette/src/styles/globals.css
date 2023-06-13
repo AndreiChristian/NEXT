@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Light Mode Variables */
+  --light-background: #e8f5e9;
+  --light-text: #1b5e20;
+  --light-primary-accent: #ffab91;
+  --light-secondary-accent: #ce93d8;
+
+  /* Dark Mode Variables */
+  --dark-background: #263238;
+  --dark-text: #eceff1;
+  --dark-primary-accent: #0288d1;
+  --dark-secondary-accent: #ff6e40;
+}
