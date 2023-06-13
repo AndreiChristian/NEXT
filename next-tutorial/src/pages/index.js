@@ -12,6 +12,7 @@ export default function Home() {
       <nav>
         <Link href={"/product"}>Product</Link>
         <Link href={"/docs"}>Docs</Link>
+        <Link href={"/posts"}>Posts</Link>
       </nav>
       <h1>Index</h1>
     </div>
