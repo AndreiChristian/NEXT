@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5vh;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  height: 90dvh;
+
+  width: 100%;
+}
+
+.product span,
+.product div {
+  outline: 2px solid red;
+}
+
+.img_container {
+  position: relative;
+  height: 50vw;
+  width: 50vw;
+}

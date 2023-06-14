@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 1vh;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  height: 50vh;
+  width: 32%;
+  margin: 1vh;
+  box-sizing: border-box;
+}
