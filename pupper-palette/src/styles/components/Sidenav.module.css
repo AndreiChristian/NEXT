@@ -1,0 +1,27 @@
+.aside {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-60vh);
+  width: 60vh;
+  z-index: 10;
+}
+
+.backdrop {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.499);
+  z-index: 9;
+}
+
+@media (max-width: 900px) {
+  .nav a,
+  .nav svg {
+    display: none;
+  }
+
+  .nav a:nth-child(1),
+  .menu {
+    display: block !important;
+  }
+}

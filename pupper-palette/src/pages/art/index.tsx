@@ -15,6 +15,12 @@ const ArtIndex = () => {
       <h1>Art</h1>
       <h1>Art</h1>
       <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
+      <h1>Art</h1>
     </>
   );
 };
