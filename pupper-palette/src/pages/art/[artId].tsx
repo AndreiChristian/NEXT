@@ -4,6 +4,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import Image from "next/image";
 
 import React from "react";
+import Link from "next/link";
 
 export type DogDetail = {
   id: number;
@@ -29,8 +30,16 @@ const ArtItem: React.FC<ArtIdProps> = ({ dog }) => {
           <Image src={dog.imagepath} alt={dog.name} fill></Image>
         </span>
         <div className={styles.details}>
-          <h1>{dog.breed}</h1>
+          <h1>{dog.name}</h1>
           <p>{dog.description}</p>
+          <Link href={`/breeds/${dog.breed_id}`}>
+            <button className="stroked-button-secondary">{dog.breed}</button>
+          </Link>
+          <br />
+          <div className={styles.spacer}></div>
+          <Link href={`/categories/${dog.category_id}`}>
+            <button className="stroked-button-secondary">{dog.category}</button>
+          </Link>
           <h3>{dog.price}</h3>
         </div>
       </div>
